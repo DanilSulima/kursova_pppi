@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #3d3d5c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.java_oop_kursova.katalog">
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <children>
+      <AnchorPane layoutY="74.0" prefHeight="326.0" prefWidth="700.0" style="-fx-background-color: #fafafa;">
+         <children>
+            <Label layoutX="262.0" layoutY="204.0" text="Профілактичне обслуговування" />
+            <Label layoutX="515.0" layoutY="204.0" text="Гарантійний ремонт" />
+            <Label layoutX="82.0" layoutY="204.0" text="Заміна Термопасти " />
+            <Button fx:id="back_button1" layoutX="13.0" layoutY="274.0" mnemonicParsing="false" onAction="#btnHandler" text="Вийти" />
+            <Button fx:id="next" layoutX="645.0" layoutY="274.0" mnemonicParsing="false" onAction="#gonext" text="Далі" />
+            <ImageView fitHeight="133.0" fitWidth="200.0" layoutX="261.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/1563856021184125176.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="465.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/pochemu-greetsya-kompyuter-vo-vremya-igry.PNG" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../assets/spreading-thermal-paste-how-and-how-much-00.PNG" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Label layoutX="255.0" prefHeight="36.0" prefWidth="189.0" text="Ремонт комп'ютерів" textFill="WHITE">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="PROFILE" layoutX="613.0" layoutY="23.0" mnemonicParsing="false" onAction="#PROFILE1" style="-fx-background-color: #3d3d5c;" text="Профіль" textFill="WHITE" />
+   </children>
+</AnchorPane>
